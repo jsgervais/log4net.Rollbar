@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>log4net.Rollbar.jsgervais</id>
+    <version>1.1.1</version>
+    <authors>jsgervais</authors>
+    <owners>jsgervais</owners>
+    <projectUrl>https://github.com/jsgervais/log4net.Rollbar</projectUrl>
+    <licenseUrl>https://github.com/jsgervais/log4net.Rollbar/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fork from https://github.com/mteinum/log4net.Rollbar - updates newtonsoft conflicting dependency to 13.0.3</description>
+  </metadata>
+  	<files>
+		<file src="bin\Release\log4net.dll" target="lib\net45" />
+		<file src="bin\Release\log4net.Rollbar.dll" target="lib\net45" />
+		<file src="bin\Release\RollbarSharp.dll" target="lib\net45" />
+		<file src="bin\Release\Newtonsoft.Json.dll" target="lib\net45" />
+	</files>
+</package>
